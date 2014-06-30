@@ -1,0 +1,43 @@
+#main {
+	height: 1000px;
+	width: 800px;
+}
+
+#main1 {
+	height: 200px;
+	width: 800px;
+}
+
+#main2 {
+	height: 200px;
+	width: 800px;
+}
+
+/*also need to be inline-block, no use if only img is block */
+/*otherwise */
+#i1, #i2, #i3, #i4 {
+	display: inline-block;
+	width: 170px;
+}
+
+#i5, #i6, #i7, #i8 {
+	display: inline-block;
+	width: 170px;
+	/* set this to hold space after img is clicked*/
+}
+
+img {
+	height: 150px;
+	width: 150px;
+	display: inline-block;
+	position: relative;
+}
+
+
+button {
+	height: 25px;
+	width:50px;
+	background-color: green;
+	color: white;
+}
+
